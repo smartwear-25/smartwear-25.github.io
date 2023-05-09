@@ -64,16 +64,16 @@ function Navigation() {
             style={{ height: "12vw", width: "50vw" }}
           >
             <p className="mb-0" style={{ fontSize: "2vw" }}>
-              SmartWear 2022
+              SmartWear 2023
             </p>
             <p className="mb-0" style={{ fontSize: "1.5vw" }}>
               Workshop on Smart Wearable Systems and Applications
             </p>
             <p className="mb-0" style={{ fontSize: "1.2vw" }}>
-              In Conjunction with MobiCom 2022
+              In Conjunction with MobiCom 2023
             </p>
             <p className="mb-0 " style={{ fontSize: "1.5vw" }}>
-              October, 17, 2022, Sydney
+              October, 6, 2023, Madrid, Spain
             </p>
             
           </div>
