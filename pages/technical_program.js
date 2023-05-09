@@ -55,6 +55,8 @@ export default function technicalProgram() {
         <p className="pt-2 justify-center text-center text-lg text-red-500 ">
           All times are in Australian Eastern Standard Time (AEST).
         </p>
+  
+  
         {/* <p className="bold text-xl text-center pt-0">
           Online Zoom link:{" "}
           <a href="https://unsw.zoom.us/j/89330936294">
@@ -64,6 +66,7 @@ export default function technicalProgram() {
           The password can be found in the email you received.
         </p> */}
       </div>
+      {/*
       <div className="container mx-auto">
         <p className="pt-2 text-3xl font-serif">Sechedule</p>
       </div>
@@ -477,7 +480,7 @@ export default function technicalProgram() {
           </p>
         </div>
       </div>
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
