@@ -9,13 +9,13 @@ export default function Footer() {
         <p className="justify-center text-center text-xl font-semibold">
     Sponsor
         </p>
-      </div>
+      </div>*/}
       <div className="flex flex-row gap-40 justify-center mt-4">
         <div>
           <a href="https://www.acm.org/" alt="ACM">
             <Image width={180} height={180} alt="acmlogo" src={acmlogo}></Image>
           </a>
-        </div>*/}
+        </div>
         <div>
           <a href="https://www.cse.unsw.edu.au/" alt="cse-UNSW">
             <Image width={180} height={180} alt="cselogo" src={cselogo}></Image>
