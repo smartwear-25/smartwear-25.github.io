@@ -22,7 +22,7 @@ export default function paperSumisstion() {
             conference proceedings format. (Use the same PDF{" "}
             <a
               className="text-red-500 no-underline"
-              href="https://www.sigmobile.org/mobicom/2022/cfp.html"
+              href="https://sigmobile.org/mobicom/2023/cfp.html"
             >
               formatting guidelines
             </a>{" "}
