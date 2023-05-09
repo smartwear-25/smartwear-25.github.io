@@ -15,12 +15,12 @@ export default function Footer() {
           <a href="https://www.acm.org/" alt="ACM">
             <Image width={180} height={180} alt="acmlogo" src={acmlogo}></Image>
           </a>
-        </div>
+        </div>*/}
         <div>
           <a href="https://www.cse.unsw.edu.au/" alt="cse-UNSW">
             <Image width={180} height={180} alt="cselogo" src={cselogo}></Image>
           </a>
-        </div>*/}
+        </div>
         <div>
           <a href="https://www.unsw.edu.au/" alt="UNSW">
             <Image
