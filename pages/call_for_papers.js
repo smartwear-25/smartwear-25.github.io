@@ -39,10 +39,6 @@ export default function callForPapers() {
           shall argue their impact and implications for ongoing or future
           research.
         </div>
-//         <div className="text-justify font-sans break-word pb-2 text-red-500 text-lg">
-//           SmartWear will run as a hybrid event, which provides an option for
-//           presenters and participants to attend the workshop virtually.
-//         </div>
         <div className="text-justify font-sans break-word pb-2">
           <h2>Topic of Interests</h2>
           Topics of interest include, but are not limited to: Wearable systems
