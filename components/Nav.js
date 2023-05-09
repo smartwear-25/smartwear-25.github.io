@@ -30,7 +30,6 @@ function Navigation() {
                     Call for papers
                   </a>
                 </Link>
-                </Link>
                 <Link href="/committees" className="no-underline px-2 py-2 text-gray-400 hover:text-gray-200">
                   Committees
                 </Link>
