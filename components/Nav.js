@@ -75,10 +75,10 @@ function Navigation() {
             <p className="mb-0 " style={{ fontSize: "1.5vw" }}>
               October, 17, 2022, Sydney
             </p>
-            //<p className="mb-0 font-serif" style={{ fontSize: "1.4vw" }}>
+            /*<p className="mb-0 font-serif" style={{ fontSize: "1.4vw" }}>
               //( SmartWear will run as a hybrid event, which provides an option
               //for presenters and participants to attend the workshop virtually )
-            //</p>
+            */</p>
           </div>
         </div>
       </div>
