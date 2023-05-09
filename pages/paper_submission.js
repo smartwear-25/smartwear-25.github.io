@@ -39,38 +39,39 @@ export default function paperSumisstion() {
             className="text-red-500 no-underline"
             href="https://smartwear2022.hotcrp.com/"
           >
-            SmartWear 2022 on HotCRP
+            SmartWear 2023 on HotCRP
           </a>
         </div>
         <div className="text-justify font-sans break-word pb-2">
           <h2 className="pt-2">Important Dates</h2>
           <ul className="list-disc pl-5">
-            {/* <li>
-              Abstract Registration:{" "}
-              <span className="font-bold">June 13, 2022</span>{" "}
-            </li> */}
-            <li>
+            <li>Abstract Registration: <span className="font-bold">June 12, 2022</span> </li> 
+            {/*<li>
               <s>
                 Submission Deadline:{" "}
-                <span className="font-bold">June 20, 2022</span>
+                <span className="font-bold">June 12, 2023</span>
               </s>
             </li>
             <li>
               Submission Deadline:{" "}
               <span className="font-bold text-red-500">
-                Extended to July 7, 2022
+                <!--Extended to July 7, 2022 -->
               </span>
+            </li>*/}
+            <li>
+                Submission Deadline:{" "}
+                <span className="font-bold">June 19, 2023</span>
             </li>
             <li>
               Notification of acceptance:{" "}
-              <span className="font-bold">August 4, 2022</span>
+              <span className="font-bold">July 10, 2023</span>
             </li>
             <li>
               Camera Ready Due:{" "}
-              <span className="font-bold">August 12, 2022</span>
+              <span className="font-bold">July 31, 2023</span>
             </li>
             <li>
-              Workshop: <span className="font-bold">October 17, 2022</span>
+              Workshop: <span className="font-bold">October 6, 2023</span>
             </li>
           </ul>
         </div>
