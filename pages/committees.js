@@ -15,7 +15,8 @@ export default function commitees() {
         </div>
         <div className="text-left font-sans break-word pb-2">
           <h2 className="pt-2">Program Committee</h2>
-          <ul className="list-disc pl-5 mb-1">
+          <p className="pt-2 justify-center text-center text-lg text-red-500 ">TBD</p>
+    {/*<ul className="list-disc pl-5 mb-1">
             <li>Alessandro Montanari, Nokia Bell Labs</li>
             <li>Bo Wei, Lancaster University</li>
             <li>Brano Kusy, CSIRO</li>
@@ -42,7 +43,7 @@ export default function commitees() {
             <li>Xucong Zhang, Delft University of Technology</li>
             <li>Zhenyu Yan, Chinese University of Hong Kong</li>
             <li>Zimu Zhou, Singapore Management University</li>
-          </ul>
+          </ul>*/}
         </div>
         <div className="text-left font-sans break-word pb-2">
           <h2 className="pt-2">Publicity Chair</h2>
