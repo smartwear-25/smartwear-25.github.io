@@ -7,7 +7,7 @@ export default function Footer() {
      <>
       <div className="bg-blue-200 container h-8 mt-2">
         <p className="justify-center text-center text-xl font-semibold">
-          Sponsor
+    {/*Sponsor*/}
         </p>
       </div>
       <div className="flex flex-row gap-40 justify-center mt-4">
