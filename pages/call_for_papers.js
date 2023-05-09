@@ -122,13 +122,13 @@ export default function callForPapers() {
             <li>
               <s>
                 Submission Deadline:{" "}
-                <span className="font-bold">June 20, 2022</span>
+                <span className="font-bold">June 12, 2023</span>
               </s>
             </li>
             <li>
               Submission Deadline:{" "}
               <span className="font-bold text-red-500">
-                Extended to July 7, 2022
+                <!--Extended to July 7, 2022 -->
               </span>
             </li>
             <li>
