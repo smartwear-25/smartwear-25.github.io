@@ -1,4 +1,4 @@
-import cselogo from "../public/CSELOGO.svg";
+{/*import cselogo from "../public/CSELOGO.svg";
 import schoollogo from "../public/unswlogo.svg";
 import acmlogo from "../public/acmlogo.svg";
 import Image from "next/image";
@@ -35,3 +35,4 @@ export default function Footer() {
     </> 
   );
 }
+*/}
