@@ -105,7 +105,7 @@ export default function callForPapers() {
           format. (Use the same PDF{" "}
           <a
             className="text-red-500 no-underline"
-            href="https://www.sigmobile.org/mobicom/2022/cfp.html"
+            href="https://sigmobile.org/mobicom/2023/cfp.html"
           >
             formatting guidelines
           </a>{" "}
@@ -118,7 +118,7 @@ export default function callForPapers() {
         <div className="text-justify font-sans break-word pb-2">
           <h2 className="pt-2">Important Dates</h2>
           <ul className="list-disc pl-5">
-            <li>Abstract Registration: <span className="font-bold">June 12, 2022</span> </li> 
+            <li>Abstract Registration: <span className="font-bold">June 12, 2023</span> </li> 
             {/*<li>
               <s>
                 Submission Deadline:{" "}
