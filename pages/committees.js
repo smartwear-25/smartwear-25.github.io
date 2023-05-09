@@ -8,9 +8,9 @@ export default function commitees() {
         <div className="text-left font-sans break-word pb-2">
           <h2 className="pt-2">Workshop Chairs</h2>
           <ul className="list-disc pl-5 mb-1">
-            <li>Dong Ma, Singapore Management University</li>
-            <li>Nabil Alshurafa, Northwestern University</li>
-            <li>Mahbub Hassan, University of New South Wales</li>
+            <li>Guohao Lan, Delft University of Technology</li>
+            <li>Dong Ma, Singapore Management University</li>    
+            <li>Alessandro Montanari, Nokia Bell Lab</li>
           </ul>
         </div>
         <div className="text-left font-sans break-word pb-2">
