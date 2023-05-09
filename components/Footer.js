@@ -5,11 +5,11 @@ import Image from "next/image";
 export default function Footer() {
   return (
      <>
-      <div className="bg-blue-200 container h-8 mt-2">
+      {/*<div className="bg-blue-200 container h-8 mt-2">
         <p className="justify-center text-center text-xl font-semibold">
-    {/*Sponsor*/}
+    Sponsor
         </p>
-      </div>
+      </div>*/}
       <div className="flex flex-row gap-40 justify-center mt-4">
         <div>
           <a href="https://www.acm.org/" alt="ACM">
