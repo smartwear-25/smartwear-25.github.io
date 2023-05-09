@@ -8,7 +8,7 @@ export default function paperSumisstion() {
       <div className="container mx-auto">
         <div className="text-justify font-sans break-word pb-2 pt-2 inline">
           <h2 className="pt-2">Submission Instructions</h2>
-          <p className="pt-2 justify-center text-center text-lg text-red-500 ">TBD</p>
+          <p className="pt-2 justify-center text-left text-lg text-red-500 ">TBD</p>
           {/*<div>
             Demo proposals must be accompanied with an additional 1-page
             description of the precise setup and requirements (the 1-page setup
@@ -36,7 +36,7 @@ export default function paperSumisstion() {
         </div>
         <div className="text-justify font-sans break-word pb-2 pt-1">
           <h2>Submission Website</h2>
-          <p className="pt-2 justify-center text-center text-lg text-red-500 ">TBD</p>
+          <p className="pt-2 justify-center text-left text-lg text-red-500 ">TBD</p>
           {/*<a
             className="text-red-500 no-underline"
             href="https://smartwear2022.hotcrp.com/"
@@ -46,7 +46,7 @@ export default function paperSumisstion() {
         </div>
         <div className="text-justify font-sans break-word pb-2">
           <h2 className="pt-2">Important Dates</h2>
-          <p className="pt-2 justify-center text-center text-lg text-red-500 ">TBD</p>
+          <p className="pt-2 justify-center text-left text-lg text-red-500 ">TBD</p>
           {/*<ul className="list-disc pl-5">
             <li>Abstract Registration: <span className="font-bold">June 12, 2022</span> </li> 
             {/*<li>
