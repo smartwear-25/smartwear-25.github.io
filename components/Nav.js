@@ -25,9 +25,11 @@ function Navigation() {
               <Nav className="me-auto">
                 <Link href="/" className="no-underline px-2 py-2 text-gray-400 hover:text-gray-200">
                     Home
-                </Link>
-                <Link href="/call_for_papers" className="no-underline px-2 py-2 text-gray-400 hover:text-gray-200">
+                <Link href="/call_for_papers">
+                  <a className="no-underline px-2 py-2 text-gray-400 hover:text-gray-200">
                     Call for papers
+                  </a>
+                </Link>
                 </Link>
                 <Link href="/committees" className="no-underline px-2 py-2 text-gray-400 hover:text-gray-200">
                   Committees
