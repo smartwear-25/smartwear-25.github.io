@@ -2,7 +2,7 @@ import cselogo from "../public/CSELOGO.svg";
 import schoollogo from "../public/unswlogo.svg";
 import acmlogo from "../public/acmlogo.svg";
 import Image from "next/image";
- {/*export default function Footer() {
+ {/* export default function Footer() {
   return (
      <>
       <div className="bg-blue-200 container h-8 mt-2">
