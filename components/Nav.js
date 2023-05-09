@@ -15,7 +15,7 @@ function Navigation() {
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Container>
             <Head>
-              <title>SmartWear 2022 | ACM MobiCom 2022</title>
+              <title>SmartWear 2023 | ACM MobiCom 2023</title>
             </Head>
             <Link href="/">
               <a className="no-underline text-xl text-white mr-4">SmartWear</a>
@@ -75,10 +75,10 @@ function Navigation() {
             <p className="mb-0 " style={{ fontSize: "1.5vw" }}>
               October, 17, 2022, Sydney
             </p>
-            <p className="mb-0 font-serif" style={{ fontSize: "1.4vw" }}>
-              ( SmartWear will run as a hybrid event, which provides an option
-              for presenters and participants to attend the workshop virtually )
-            </p>
+            //<p className="mb-0 font-serif" style={{ fontSize: "1.4vw" }}>
+              //( SmartWear will run as a hybrid event, which provides an option
+              //for presenters and participants to attend the workshop virtually )
+            //</p>
           </div>
         </div>
       </div>
