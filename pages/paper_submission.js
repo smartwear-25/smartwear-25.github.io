@@ -48,18 +48,12 @@ export default function paperSumisstion() {
           <h2 className="pt-2">Important Dates</h2>
           <p className="pt-2 justify-center text-left text-lg text-red-500 ">TBD</p>
           <ul className="list-disc pl-5">
-            {<li>
+            <li>
               <s>
                 Submission Deadline:{" "}
                 <span className="font-bold">June 12, 2023</span>
               </s>
             </li>
-//             <li>
-//               Submission Deadline:{" "}
-//               <span className="font-bold text-red-500">
-//                 <!--Extended to July 7, 2022 -->
-//               </span>
-//             </li>
             <li>
                 Submission Deadline:{" "}
                 <span className="font-bold">June 19, 2023</span>
