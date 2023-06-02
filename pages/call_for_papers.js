@@ -118,7 +118,6 @@ export default function callForPapers() {
         <div className="text-justify font-sans break-word pb-2">
           <h2 className="pt-2">Important Dates</h2>
           <ul className="list-disc pl-5">
-            <li>Abstract Registration: <span className="font-bold">June 12, 2023</span> </li> 
             {/*<li>
               <s>
                 Submission Deadline:{" "}
@@ -133,18 +132,18 @@ export default function callForPapers() {
             </li>*/}
             <li>
                 Submission Deadline:{" "}
-                <span className="font-bold">June 19, 2023</span>
+                <span className="font-bold">June 25, 2023</span>
             </li>
             <li>
               Notification of acceptance:{" "}
-              <span className="font-bold">July 10, 2023</span>
+              <span className="font-bold">July 30, 2023</span>
             </li>
             <li>
               Camera Ready Due:{" "}
-              <span className="font-bold">July 31, 2023</span>
+              <span className="font-bold">August 11, 2023</span>
             </li>
             <li>
-              Workshop: <span className="font-bold">October 6, 2023</span>
+              Workshop Date: <span className="font-bold">October 1 or 6, 2023</span>
             </li>
           </ul>
         </div>
