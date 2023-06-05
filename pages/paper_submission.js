@@ -59,7 +59,7 @@ export default function paperSumisstion() {
               <span className="font-bold">August 11, 2023</span>
             </li>
             <li>
-              Workshop Date: <span className="font-bold">October 1 or 6, 2023</span>
+              Workshop Date: <span className="font-bold">October 6, 2023</span>
             </li>
           </ul>
         </div>
