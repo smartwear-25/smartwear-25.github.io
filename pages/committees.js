@@ -16,34 +16,23 @@ export default function commitees() {
         <div className="text-left font-sans break-word pb-2">
           <h2 className="pt-2">Program Committee</h2>
           <p className="pt-2 justify-center text-center text-lg text-red-500 ">TBD</p>
-    {/*<ul className="list-disc pl-5 mb-1">
-            <li>Alessandro Montanari, Nokia Bell Labs</li>
+        <ul className="list-disc pl-5 mb-1">
             <li>Bo Wei, Lancaster University</li>
-            <li>Brano Kusy, CSIRO</li>
+            <li>Chaofan Wang, Delft University of Technology</li>
             <li>Chengwen Luo, Shenzhen University</li>
-            <li>Chris Xiaoxuan Lu, Edinburg University</li>
-            <li>Dong Ma, Singapore Management University</li>
-            <li>Evangelos Niforatos, Delft University of Technology</li>
-            <li>Flora Salim, University of New South Wales</li>
             <li>Gabriele Civitarese, University of Milan</li>
-            <li>Hassan Ghasemzadeh, Washington State University</li>
-            <li>Hirozumi Yamaguchi, Osaka University</li>
-            <li>Hua Huang, University of California, Merced</li>
-            <li>Jagmohan Chauhan, University of Southampton</li>
-            <li>Maria Gorlatova, Duke University</li>
-            <li>Przemysław Pawełczak, Delft University of Technology</li>
-            <li>Roozbeh Ghaffari, Northwestern University</li>
+            <li>Mahbub Hassan, University of New South Wales</li>
+            <li>Qun Song, Delft University of Technology</li>
             <li>Stephan Sigg, Aalto University</li>
             <li>Suranga Seneviratne, University of Sydney</li>
+            <li>Thivya Kandappu, Singapore Management University</li>
             <li>Tianxing Li, Michigan State University</li>
-            <li>
-              Tristan Braud, Hong Kong University of Science and Technology
-            </li>
-            <li>Weitao Xu, City University of Hong Kong</li>
-            <li>Xucong Zhang, Delft University of Technology</li>
+            <li>VP Nguyen, University of Massachusetts Amherst</li>
+            <li>Yang Liu, University of Cambridge</li>
+            <li>Yongpan Zou, Shenzhen University</li>
             <li>Zhenyu Yan, Chinese University of Hong Kong</li>
             <li>Zimu Zhou, Singapore Management University</li>
-          </ul>*/}
+          </ul>
         </div>
         <div className="text-left font-sans break-word pb-2">
           <h2 className="pt-2">Publicity Chair</h2>
