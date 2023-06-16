@@ -10,7 +10,7 @@ export default function commitees() {
           <ul className="list-disc pl-5 mb-1">
             <li>Guohao Lan, Delft University of Technology</li>
             <li>Dong Ma, Singapore Management University</li>    
-            <li>Alessandro Montanari, Nokia Bell Lab</li>
+            <li>Alessandro Montanari, Nokia Bell Labs</li>
           </ul>
         </div>
         <div className="text-left font-sans break-word pb-2">
