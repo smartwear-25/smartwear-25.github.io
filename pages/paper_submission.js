@@ -36,12 +36,12 @@ export default function paperSumisstion() {
         <div className="text-justify font-sans break-word pb-2 pt-1">
           <h2>Submission Website</h2>
           <p className="pt-2 justify-center text-left text-lg text-red-500 ">TBD</p>
-          {/*<a
+          <a
             className="text-red-500 no-underline"
-            href="https://smartwear2022.hotcrp.com/"
+            href="https://smartwear2023.hotcrp.com/"
           >
             SmartWear 2023 on HotCRP
-          </a>*/}
+          </a>
         </div>
         <div className="text-justify font-sans break-word pb-2">
           <h2 className="pt-2">Important Dates</h2>
