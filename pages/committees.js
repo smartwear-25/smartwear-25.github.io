@@ -15,7 +15,6 @@ export default function commitees() {
         </div>
         <div className="text-left font-sans break-word pb-2">
           <h2 className="pt-2">Program Committee</h2>
-          <p className="pt-2 justify-center text-center text-lg text-red-500 ">TBD</p>
         <ul className="list-disc pl-5 mb-1">
             <li>Bo Wei, Lancaster University</li>
             <li>Chaofan Wang, Delft University of Technology</li>
