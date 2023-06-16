@@ -30,7 +30,7 @@ export default function commitees() {
             <li>Yang Liu, University of Cambridge</li>
             <li>Yongpan Zou, Shenzhen University</li>
             <li>Zhenyu Yan, Chinese University of Hong Kong</li>
-            <li>Zimu Zhou, Singapore Management University</li>
+            <li>Zimu Zhou, City University of Hong Kong</li>
           </ul>
         </div>
         <div className="text-left font-sans break-word pb-2">
