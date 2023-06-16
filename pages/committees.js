@@ -16,7 +16,7 @@ export default function commitees() {
         <div className="text-left font-sans break-word pb-2">
           <h2 className="pt-2">Program Committee</h2>
         <ul className="list-disc pl-5 mb-1">
-            <li>Bo Wei, Lancaster University</li>
+            <li>Bo Wei, Newcastle University</li>
             <li>Chaofan Wang, Delft University of Technology</li>
             <li>Chengwen Luo, Shenzhen University</li>
             <li>Gabriele Civitarese, University of Milan</li>
