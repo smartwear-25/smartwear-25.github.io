@@ -22,6 +22,7 @@ export default function commitees() {
             <li>Gabriele Civitarese, University of Milan</li>
             <li>Mahbub Hassan, University of New South Wales</li>
             <li>Qun Song, Delft University of Technology</li>
+            <li>Shaohu Zhang, University of North Carolina at Pembroke</li>
             <li>Stephan Sigg, Aalto University</li>
             <li>Suranga Seneviratne, University of Sydney</li>
             <li>Thivya Kandappu, Singapore Management University</li>
