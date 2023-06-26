@@ -46,11 +46,11 @@ export default function paperSumisstion() {
           <h2 className="pt-2">Important Dates</h2>
           <ul className="list-disc pl-5">
             <li>
-                Paper Submission:{" "}
+                Submission Deadline:{" "}
                 <span className="font-bold">July 10, 2023</span>
             </li>
             <li>
-              Notification of Acceptance:{" "}
+              Acceptance Notification:{" "}
               <span className="font-bold">July 30, 2023</span>
             </li>
             <li>
