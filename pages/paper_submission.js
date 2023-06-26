@@ -47,14 +47,14 @@ export default function paperSumisstion() {
           <ul className="list-disc pl-5">
             <li>
                 Paper Submission:{" "}
-                <span className="font-bold">June 25, 2023</span>
+                <span className="font-bold">July 10, 2023</span>
             </li>
             <li>
               Notification of Acceptance:{" "}
               <span className="font-bold">July 30, 2023</span>
             </li>
             <li>
-              Camera Ready Submission:{" "}
+              Camera Ready Due:{" "}
               <span className="font-bold">August 11, 2023</span>
             </li>
             <li>
