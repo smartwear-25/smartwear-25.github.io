@@ -136,7 +136,7 @@ export default function callForPapers() {
             </li>
             <li>
               Acceptance Notification:{" "}
-              <span className="font-bold">July 30, 2023</span>
+              <span className="font-bold">August 4, 2023</span>
             </li>
             <li>
               Camera Ready Due:{" "}
