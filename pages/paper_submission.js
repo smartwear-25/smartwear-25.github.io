@@ -51,11 +51,11 @@ export default function paperSumisstion() {
             </li>
             <li>
               Acceptance Notification:{" "}
-              <span className="font-bold">August 4, 2023</span>
+              <span className="font-bold">August 2, 2023</span>
             </li>
             <li>
               Camera Ready Due:{" "}
-              <span className="font-bold">August 11, 2023</span>
+              <span className="font-bold">August 9, 2023</span>
             </li>
             <li>
               Workshop Date: <span className="font-bold">October 6, 2023</span>
