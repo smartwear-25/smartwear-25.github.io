@@ -93,7 +93,7 @@ export default function technicalProgram() {
             Topic:{" "}
             <PaperTitle>TBD</PaperTitle>
             <br />
-            Keynote speaker: TBD
+            Keynote Speaker: TBD
             <br />
             Session Chair: TBD
           </Contetnt>
