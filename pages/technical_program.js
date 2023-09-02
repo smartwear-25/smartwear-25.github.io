@@ -94,8 +94,6 @@ export default function technicalProgram() {
             <PaperTitle>TBD</PaperTitle>
             <br />
             Keynote Speaker: TBD
-            <br />
-            Session Chair: TBD
           </Contetnt>
         </BasicBlock>
         <BasicBlock className={`${ColorList[4]}`}>
