@@ -80,23 +80,22 @@ export default function technicalProgram() {
           </Contetnt>
         </BasicBlock>
         <BasicBlock className={`${ColorList[1]}`}>
-          <Time>09:00 - 09:10</Time>
+          <Time>14:00 - 14:10</Time>
           <Contetnt>
             Welcome and Opening Remarks from Workshop Organizers
           </Contetnt>
         </BasicBlock>
         <BasicBlock className={`${ColorList[2]}`}>
-          <Time>09:10 - 10:00</Time>
+          <Time>14:10 - 15:00</Time>
           <Contetnt>
             Keynote 1 [50mins: 35~40min talk + 10~15min Q&A]
             <br />
             Topic:{" "}
-            <PaperTitle>Trends for Wearable and Medical Devices</PaperTitle>
+            <PaperTitle>TBD</PaperTitle>
             <br />
-            Keynote speaker: Prof. Subhas Mukhopadhyay, FIEEE, Macquarie
-            University
+            Keynote speaker: TBD
             <br />
-            Session Chair: Mahbub Hassan
+            Session Chair: TBD
           </Contetnt>
         </BasicBlock>
         <BasicBlock className={`${ColorList[3]}`}>
