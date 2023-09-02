@@ -66,6 +66,143 @@ export default function technicalProgram() {
           The password can be found in the email you received.
         </p> */}
       </div>
+
+  <div className="container mx-auto">
+        <p className="pt-2 text-3xl font-serif">Sechedule</p>
+      </div>
+      <div className="container grid grid-cols-12 px-0 ">
+        <BasicBlock className={`${ColorList[0]}`}>
+          <Time>
+            <span className="font-bold">Time</span>
+          </Time>
+          <Contetnt>
+            <span className="font-bold">Event</span>
+          </Contetnt>
+        </BasicBlock>
+        <BasicBlock className={`${ColorList[1]}`}>
+          <Time>09:00 - 09:10</Time>
+          <Contetnt>
+            Welcome and Opening Remarks from Workshop Organizers
+          </Contetnt>
+        </BasicBlock>
+        <BasicBlock className={`${ColorList[2]}`}>
+          <Time>09:10 - 10:00</Time>
+          <Contetnt>
+            Keynote 1 [50mins: 35~40min talk + 10~15min Q&A]
+            <br />
+            Topic:{" "}
+            <PaperTitle>Trends for Wearable and Medical Devices</PaperTitle>
+            <br />
+            Keynote speaker: Prof. Subhas Mukhopadhyay, FIEEE, Macquarie
+            University
+            <br />
+            Session Chair: Mahbub Hassan
+          </Contetnt>
+        </BasicBlock>
+        <BasicBlock className={`${ColorList[3]}`}>
+          <Time>10:00 - 10:30</Time>
+          <Contetnt>Coffee Break</Contetnt>
+        </BasicBlock>
+        <BasicBlock className={`${ColorList[4]}`}>
+          <Time>10:30 - 12:00</Time>
+          <Contetnt>
+            Technical Paper Session
+            <br />
+            Session Chair: Mahbub Hassan
+            <ul className="list-disc mb-0">
+              <li className="">
+                <PaperTitle>
+                  <span className="bg-blue-500 text-white rounded-xl px-2 mr-1">
+                    Best Paper!
+                  </span>
+                  Equinox: Exploring Naturalistic Distortions of Time Perception
+                </PaperTitle>
+                <br />
+                <PaperAuthors>
+                  David Ramsay, Joseph A. Paradiso (Responsive Environments, MIT
+                  Media Lab, USA)
+                </PaperAuthors>
+              </li>
+              <li className="">
+                <PaperTitle>
+                  Radio Signal Strength Indication Augmentation for One-Shot
+                  Learning in Indoor Localisation
+                </PaperTitle>
+                <br />
+                <PaperAuthors>
+                  Thanaphon Suwannaphong, Ryan McConville, Ian Craddock
+                  (University of Bristol, UK)
+                </PaperAuthors>
+              </li>
+              <li className="">
+                <PaperTitle>
+                  TagTeam: Towards Wearable-Assisted, Implicit Guidance for
+                  Human-Drone Teams
+                </PaperTitle>
+                <br />
+                <PaperAuthors>
+                  Kasthuri Jayarajah, Aryya Gangopadhyay (University of
+                  Maryland, Baltimore County, USA), Nicholas Waytowich (US Army
+                  Research Lab, USA)
+                </PaperAuthors>
+              </li>
+            </ul>
+          </Contetnt>
+        </BasicBlock>
+        <BasicBlock className={`${ColorList[3]}`}>
+          <Time>12:00 - 13:30</Time>
+          <Contetnt>Lunch Break</Contetnt>
+        </BasicBlock>
+        <BasicBlock className={`${ColorList[2]}`}>
+          <Time>14:00 - 14:50</Time>
+          <Contetnt>
+            Keynote 2 [50mins: 35~40min talk + 10~15min Q&A]
+            <br />
+            Topic:{" "}
+            <PaperTitle>
+              Sensor-less Energy-free Sensing: The Future of Ubiquitous
+              Context-Awareness for Wearable Devices
+            </PaperTitle>
+            <br />
+            Keynote speaker: Prof. Moustafa Youssef, FIEEE, FACM, The American
+            University in Cairo
+            <br />
+            Session Chair: Guohao Lan
+          </Contetnt>
+        </BasicBlock>
+        <BasicBlock className={`${ColorList[3]}`}>
+          <Time>15:00 - 15:30</Time>
+          <Contetnt>Coffee Break</Contetnt>
+        </BasicBlock>
+        <BasicBlock className={`${ColorList[4]}`}>
+          <Time>15:30 - 16:30</Time>
+          <Contetnt>
+            Panel Discussion
+            <br />
+            Panel Topic:{" "}
+            <PaperTitle>
+              How the smart wearables will shape the future of the healthcare
+              industry
+            </PaperTitle>
+            <br />
+            Panel members:
+            <ul className="list-disc mb-0">
+              <li>
+                Prof. Guoliang Xing, FIEEE, Chinese University of Hong Kong
+              </li>
+              <li>Dr. Hassan Habibi Gharakheili, CTO of CyAmast</li>
+              <li>Prof. Nabil Alshurafa, Northwestern University</li>
+            </ul>
+            Moderator: Mahbub Hassan
+          </Contetnt>
+        </BasicBlock>
+        <BasicBlock className={`${ColorList[1]}`}>
+          <Time>16:30 - 16:40</Time>
+          <Contetnt>Best Paper Award and Closing Remarks</Contetnt>
+        </BasicBlock>
+      </div>
+
+
       {/*
       <div className="container mx-auto">
         <p className="pt-2 text-3xl font-serif">Sechedule</p>
