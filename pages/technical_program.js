@@ -98,59 +98,45 @@ export default function technicalProgram() {
             Session Chair: TBD
           </Contetnt>
         </BasicBlock>
-        <BasicBlock className={`${ColorList[3]}`}>
-          <Time>10:00 - 10:30</Time>
-          <Contetnt>Coffee Break</Contetnt>
-        </BasicBlock>
         <BasicBlock className={`${ColorList[4]}`}>
-          <Time>10:30 - 12:00</Time>
+          <Time>15:00 - 16:00</Time>
           <Contetnt>
-            Technical Paper Session
+            Paper Session 1
             <br />
-            Session Chair: Mahbub Hassan
             <ul className="list-disc mb-0">
               <li className="">
                 <PaperTitle>
-                  <span className="bg-blue-500 text-white rounded-xl px-2 mr-1">
-                    Best Paper!
-                  </span>
-                  Equinox: Exploring Naturalistic Distortions of Time Perception
+                  Z-Pose: Continuous 3D Hand Pose Tracking Using Single-Point Bio-Impendance Sensing on a Ring
                 </PaperTitle>
                 <br />
                 <PaperAuthors>
-                  David Ramsay, Joseph A. Paradiso (Responsive Environments, MIT
-                  Media Lab, USA)
+                  Anandghan Waghmare, Ishan Chatterjee, Shwetak Patel (University of Washington)
                 </PaperAuthors>
               </li>
               <li className="">
                 <PaperTitle>
-                  Radio Signal Strength Indication Augmentation for One-Shot
-                  Learning in Indoor Localisation
+                  Yawning Detection using Earphone Inertial Measurement Units
                 </PaperTitle>
                 <br />
                 <PaperAuthors>
-                  Thanaphon Suwannaphong, Ryan McConville, Ian Craddock
-                  (University of Bristol, UK)
+                  Jacob Brown, Yang Liu, Cecilia Mascolo (University of Cambridge)
                 </PaperAuthors>
               </li>
               <li className="">
                 <PaperTitle>
-                  TagTeam: Towards Wearable-Assisted, Implicit Guidance for
-                  Human-Drone Teams
+                  Optimizing User Experience in Wearable Cognitive Assistance through Model Specialization
                 </PaperTitle>
                 <br />
                 <PaperAuthors>
-                  Kasthuri Jayarajah, Aryya Gangopadhyay (University of
-                  Maryland, Baltimore County, USA), Nicholas Waytowich (US Army
-                  Research Lab, USA)
+                  Chanh Nguyen, Mahadev Satyanarayanan (Carnegie Mellon University)
                 </PaperAuthors>
               </li>
             </ul>
           </Contetnt>
         </BasicBlock>
         <BasicBlock className={`${ColorList[3]}`}>
-          <Time>12:00 - 13:30</Time>
-          <Contetnt>Lunch Break</Contetnt>
+          <Time>16:00 - 16:30</Time>
+          <Contetnt>Coffee Break</Contetnt>
         </BasicBlock>
         <BasicBlock className={`${ColorList[2]}`}>
           <Time>14:00 - 14:50</Time>
