@@ -138,53 +138,39 @@ export default function technicalProgram() {
           <Time>16:00 - 16:30</Time>
           <Contetnt>Coffee Break</Contetnt>
         </BasicBlock>
-        <BasicBlock className={`${ColorList[2]}`}>
-          <Time>14:00 - 14:50</Time>
-          <Contetnt>
-            Keynote 2 [50mins: 35~40min talk + 10~15min Q&A]
-            <br />
-            Topic:{" "}
-            <PaperTitle>
-              Sensor-less Energy-free Sensing: The Future of Ubiquitous
-              Context-Awareness for Wearable Devices
-            </PaperTitle>
-            <br />
-            Keynote speaker: Prof. Moustafa Youssef, FIEEE, FACM, The American
-            University in Cairo
-            <br />
-            Session Chair: Guohao Lan
-          </Contetnt>
-        </BasicBlock>
-        <BasicBlock className={`${ColorList[3]}`}>
-          <Time>15:00 - 15:30</Time>
-          <Contetnt>Coffee Break</Contetnt>
-        </BasicBlock>
         <BasicBlock className={`${ColorList[4]}`}>
-          <Time>15:30 - 16:30</Time>
+          <Time>16:30 - 17:10</Time>
           <Contetnt>
-            Panel Discussion
+            Paper Session 2
             <br />
-            Panel Topic:{" "}
-            <PaperTitle>
-              How the smart wearables will shape the future of the healthcare
-              industry
-            </PaperTitle>
-            <br />
-            Panel members:
             <ul className="list-disc mb-0">
-              <li>
-                Prof. Guoliang Xing, FIEEE, Chinese University of Hong Kong
+              <li className="">
+                <PaperTitle>
+                  Hyper-Accelerated Learning for Brain-Computer Interfaces via Partial Target-Aware Optimal Transport
+                </PaperTitle>
+                <br />
+                <PaperAuthors>
+                  Ekansh Gupta, Cheng-Yeh Chen, Raghupathy Sivakumar (Georgia Institute of Technology)
+                </PaperAuthors>
               </li>
-              <li>Dr. Hassan Habibi Gharakheili, CTO of CyAmast</li>
-              <li>Prof. Nabil Alshurafa, Northwestern University</li>
+              <li className="">
+                <PaperTitle>
+                  Aggressive SRAM Voltage Scaling and Error Mitigation for Approximate DNN Inference 
+                </PaperTitle>
+                <br />
+                <PaperAuthors>
+                  Wootack Kim, Minkyu Shim, Hyunwoo Jung, Youngki Lee (Seoul National University)
+                </PaperAuthors>
+              </li>
             </ul>
-            Moderator: Mahbub Hassan
+
           </Contetnt>
         </BasicBlock>
         <BasicBlock className={`${ColorList[1]}`}>
-          <Time>16:30 - 16:40</Time>
-          <Contetnt>Best Paper Award and Closing Remarks</Contetnt>
+          <Time>17:10 - 17:20</Time>
+          <Contetnt>Closing Remarks</Contetnt>
         </BasicBlock>
+        <br />
       </div>
 
 
