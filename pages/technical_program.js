@@ -53,8 +53,7 @@ export default function technicalProgram() {
       <Nav />
       <div className="container mx-auto">
         <p className="pt-2 justify-center text-center text-lg text-red-500 ">
-            TBD
-            {/*All times are in Australian Eastern Standard Time (AEST).*/}
+            {All times are in Central European Summer Time (CEST).}
         </p>
   
   
