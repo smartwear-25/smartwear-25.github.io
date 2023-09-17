@@ -171,10 +171,16 @@ export default function technicalProgram() {
         <br />
       </div>
 
-            <div className="container grid grid-cols-12 ">
+
+              
+
+      <div className="container mx-auto">
+        <p className="pt-2 text-3xl font-serif">Keynote Speakers</p>
+      </div>
+      <div className="container grid grid-cols-12 ">
         <div className="col-span-12">
           <p className="text-2xl font-bold">
-            Trends for Wearable and Medical Devices
+            Building Tomorrow with Wireless Sensing Today
           </p>
         </div>
         <div className="col-span-12 md:col-span-2">
@@ -182,11 +188,11 @@ export default function technicalProgram() {
             <Image alt="Subhas" src={speaker1}></Image>
           </div>
           <p className="text-xl font-serif text-center  md:text-base lg:text-xl">
-            Subhas Mukhopadhyay
+            Tao Gu
           </p>
           <div className="text-center">
             <a
-              href="https://scholar.google.com.au/citations?user=8p-BvWIAAAAJ&hl=en"
+              href="https://scholar.google.com.sg/citations?hl=en&user=YfeWvwYAAAAJ"
               alt="google scholar"
             >
               <Image
@@ -196,7 +202,7 @@ export default function technicalProgram() {
                 height={logosize}
               ></Image>
             </a>
-            <a href="https://orcid.org/0000-0002-8600-5907" alt="Subhas">
+            <a href="https://orcid.org/0000-0002-1350-6639" alt="Subhas">
               <Image
                 alt="Subhas"
                 src={orcidlogo}
@@ -205,7 +211,7 @@ export default function technicalProgram() {
               ></Image>
             </a>
             <a
-              href="https://researchers.mq.edu.au/en/persons/subhas-mukhopadhyay"
+              href="https://taogu.site"
               alt="personal page"
             >
               <Image
@@ -219,55 +225,11 @@ export default function technicalProgram() {
         </div>
         <div className="col-span-12 md:col-span-10">
           <p className="pl-2 text-justify mb-2">
-            An increase in world population along with a signiﬁcant aging
-            portion is forcing rapid rises in healthcare costs. The healthcare
-            system is going through a transformation in which continuous
-            monitoring of inhabitants is possible even without hospitalization.
-            The advancement of sensing technologies, embedded systems, wireless
-            communication technologies, nano-technologies, and miniaturization
-            makes it possible to develop smart medical systems to monitor
-            activities of human beings continuously. Wearable sensors monitor
-            physiological parameters continuously along with detect other
-            symptoms such as any abnormal and/or unforeseen situations which
-            need immediate attention. Therefore, necessary help can be provided
-            in times of dire need. This seminar reviews the latest reported
-            systems and the trends on wearable and medical devices including
-            implanted sensors to monitor activities of humans and issues to be
-            addressed to tackle the challenges.
+            In a rapidly evolving digital landscape, the paradigm of wireless sensing has emerged as a transformative technology, enabling us to perceive and interact with the world around us in unprecedented ways. This keynote speech will delve into the multifaceted realm of wireless sensing technologies, offering a comprehensive exploration of their diverse applications and profound impact on our lives. I will begin with Millimeter Wave Sensing, discovering how these high-frequency waves are revolutionizing our ability to sense, map, and analyze our surroundings with remarkable precision. Next, I will dive into Wi-Fi sensing, where ubiquitous Wi-Fi signals become a powerful tool for understanding human behavior, occupancy patterns, and health monitoring. Learn how this technology is turning our homes, offices, and public spaces into intelligent environments that adapt to our needs. Acoustic Sensing will unveil the fascinating world of sound-based sensing. Explore how audio signals, beyond mere communication, are harnessed to detect anomalies, monitor structural integrity, and enhance our understanding of natural environments. The keynote will also delve into sensing for activities, discovering how these technologies empower applications ranging from healthcare to sports performance monitoring. I'll explore real-world examples illustrating how wireless sensing augments human capabilities. Finally, sensing for security will spotlight how wireless technologies are instrumental in safeguarding our lives and assets.
           </p>
           <p className="pl-2 text-justify">
             <span className="font-bold">Bio: </span>
-            Subhas holds a B.E.E. (gold medallist), M.E.E., <Emph>Ph.D. </Emph>
-            (India) and <Emph>Doctor of Engineering</Emph> (Japan). He has over
-            32 years of teaching, industrial and research experience. Currently
-            he is working as a Professor of Mechanical/Electronics Engineering,
-            Macquarie University, Australia and is the Discipline Leader of the
-            Mechatronics Engineering Degree Programme. Before joining Macquarie
-            he worked as Professor of Sensing Technology, Massey University, New
-            Zealand. His fields of interest include Smart Sensors and sensing
-            technology, instrumentation techniques, wireless sensors and network
-            (WSN), Internet of Things (IoT), healthcare, wearbales etc. He has
-            supervised over 50 postgraduate students and over 150 Honours
-            students. He has examined over 80 postgraduate theses.
-            <br /> He has published over <Emph>450</Emph> papers in different
-            international journals and conference proceedings, written ten books
-            and fifty two book chapters and edited <Emph>eighteen </Emph>
-            conference proceedings. He has also edited <Emph>thirty five </Emph>
-            books with Springer-Verlag and thirty four journal special issues.
-            He has organized over 20 international conferences as either General
-            Chairs/co-chairs or Technical Programme Chair. He has delivered
-            <Emph> 415</Emph> presentations including keynote, invited, tutorial
-            and special lectures.
-            <br />
-            He is a <Emph>Fellow</Emph> of IEEE (USA), a <Emph>Fellow</Emph> of
-            IET (UK), a <Emph>Fellow</Emph> of IETE (India). He is a
-            <Emph> Topical Editor</Emph> of IEEE Sensors journal. He is also an
-            <Emph> associate</Emph> editor of IEEE Transactions on
-            Instrumentation and Measurements and IEEE Transactions on Review of
-            Biomedical Engineering. He is a <Emph>Distinguished</Emph> Lecturer
-            of the IEEE Sensors Council from 2017 to 2022. He is the
-            <Emph> Founding chair</Emph> of the IEEE Sensors Council NSW
-            chapter.
+            Tao Gu is currently a Professor in Department of Computing at Macquarie University, Sydney. His current research interests include Internet of Things, Ubiquitous Computing, Mobile Computing, Edge AI, Wireless Sensor Networks, and Big Data Analytics. He has served as an Editor of Proc. of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), an Associate Editor of IEEE Transactions on Mobile Computing (TMC) and IEEE Internet of Things Journal (IoT-J). The long-term goal of his research aims to discover innovative ways of sensing and connecting the physical world and embedding AI intelligence to facilitate the building of new applications. Please visit https://taogu.site/ for more information.
           </p>
         </div>
       </div>
