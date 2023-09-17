@@ -91,9 +91,9 @@ export default function technicalProgram() {
             Keynote 1 [50mins: 35~40min talk + 10~15min Q&A]
             <br />
             Topic:{" "}
-            <PaperTitle>TBD</PaperTitle>
+            <PaperTitle>Building Tomorrow with Wireless Sensing Today</PaperTitle>
             <br />
-            Keynote Speaker: TBD
+            Keynote Speaker: Tao Gu, Macquarie University
           </Contetnt>
         </BasicBlock>
         <BasicBlock className={`${ColorList[4]}`}>
