@@ -3,7 +3,6 @@ import Image from "next/image";
 import moment from "moment-timezone";
 import Footer from "../components/Footer";
 import tw from "tailwind-styled-components";
-import speaker1 from "../public/Subhas.jpg";
 import googlelogo from "../public/icons8-google-scholar.svg";
 import orcidlogo from "../public/icons8-orcid.svg";
 import bloglogo from "../public/icons8-google-docs.svg";
@@ -11,6 +10,7 @@ import panelmember1 from "../public/HH4.jpeg";
 import panelmember2 from "../public/nabil.jpeg";
 import panelmember3 from "../public/glxing_300dpi-HQ-photo.jpg";
 import speaker2 from "../public/Moustafa.jpeg";
+import speaker1 from "../public/taogu.jpeg";
 
 const Time = tw.div` col-span-2 text-center  grid place-items-center`;
 const LocalTime = tw.div` col-span-1 text-center  grid place-items-center`;
@@ -170,6 +170,61 @@ export default function technicalProgram() {
         </BasicBlock>
         <br />
       </div>
+
+      <div className="container mx-auto">
+        <p className="pt-2 text-3xl font-serif">Keynote Speakers</p>
+      </div>
+
+
+      <div className="col-span-12">
+          <p className="text-2xl font-bold">
+            Trends for Wearable and Medical Devices
+          </p>
+      </div>
+
+      <div className="col-span-12 md:col-span-2">
+          <div className="text-center">
+            <Image alt="Subhas" src={speaker1}></Image>
+          </div>
+          <p className="text-xl font-serif text-center  md:text-base lg:text-xl">
+            Subhas Mukhopadhyay
+          </p>
+          <div className="text-center">
+            <a
+              href="https://scholar.google.com.au/citations?user=8p-BvWIAAAAJ&hl=en"
+              alt="google scholar"
+            >
+              <Image
+                alt="google scholar"
+                src={googlelogo}
+                width={logosize}
+                height={logosize}
+              ></Image>
+            </a>
+            <a href="https://orcid.org/0000-0002-8600-5907" alt="Subhas">
+              <Image
+                alt="Subhas"
+                src={orcidlogo}
+                width={logosize}
+                height={logosize}
+              ></Image>
+            </a>
+            <a
+              href="https://researchers.mq.edu.au/en/persons/subhas-mukhopadhyay"
+              alt="personal page"
+            >
+              <Image
+                alt="personal page"
+                src={bloglogo}
+                width={logosize}
+                height={logosize}
+              ></Image>
+            </a>
+          </div>
+        </div>
+
+
+
 
 
       {/*
