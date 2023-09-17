@@ -171,18 +171,13 @@ export default function technicalProgram() {
         <br />
       </div>
 
-      <div className="container mx-auto">
-        <p className="pt-2 text-3xl font-serif">Keynote Speakers</p>
-      </div>
-
-
-      <div className="col-span-12">
+            <div className="container grid grid-cols-12 ">
+        <div className="col-span-12">
           <p className="text-2xl font-bold">
             Trends for Wearable and Medical Devices
           </p>
-      </div>
-
-      <div className="col-span-12 md:col-span-2">
+        </div>
+        <div className="col-span-12 md:col-span-2">
           <div className="text-center">
             <Image alt="Subhas" src={speaker1}></Image>
           </div>
@@ -222,6 +217,88 @@ export default function technicalProgram() {
             </a>
           </div>
         </div>
+        <div className="col-span-12 md:col-span-10">
+          <p className="pl-2 text-justify mb-2">
+            An increase in world population along with a signiﬁcant aging
+            portion is forcing rapid rises in healthcare costs. The healthcare
+            system is going through a transformation in which continuous
+            monitoring of inhabitants is possible even without hospitalization.
+            The advancement of sensing technologies, embedded systems, wireless
+            communication technologies, nano-technologies, and miniaturization
+            makes it possible to develop smart medical systems to monitor
+            activities of human beings continuously. Wearable sensors monitor
+            physiological parameters continuously along with detect other
+            symptoms such as any abnormal and/or unforeseen situations which
+            need immediate attention. Therefore, necessary help can be provided
+            in times of dire need. This seminar reviews the latest reported
+            systems and the trends on wearable and medical devices including
+            implanted sensors to monitor activities of humans and issues to be
+            addressed to tackle the challenges.
+          </p>
+          <p className="pl-2 text-justify">
+            <span className="font-bold">Bio: </span>
+            Subhas holds a B.E.E. (gold medallist), M.E.E., <Emph>Ph.D. </Emph>
+            (India) and <Emph>Doctor of Engineering</Emph> (Japan). He has over
+            32 years of teaching, industrial and research experience. Currently
+            he is working as a Professor of Mechanical/Electronics Engineering,
+            Macquarie University, Australia and is the Discipline Leader of the
+            Mechatronics Engineering Degree Programme. Before joining Macquarie
+            he worked as Professor of Sensing Technology, Massey University, New
+            Zealand. His fields of interest include Smart Sensors and sensing
+            technology, instrumentation techniques, wireless sensors and network
+            (WSN), Internet of Things (IoT), healthcare, wearbales etc. He has
+            supervised over 50 postgraduate students and over 150 Honours
+            students. He has examined over 80 postgraduate theses.
+            <br /> He has published over <Emph>450</Emph> papers in different
+            international journals and conference proceedings, written ten books
+            and fifty two book chapters and edited <Emph>eighteen </Emph>
+            conference proceedings. He has also edited <Emph>thirty five </Emph>
+            books with Springer-Verlag and thirty four journal special issues.
+            He has organized over 20 international conferences as either General
+            Chairs/co-chairs or Technical Programme Chair. He has delivered
+            <Emph> 415</Emph> presentations including keynote, invited, tutorial
+            and special lectures.
+            <br />
+            He is a <Emph>Fellow</Emph> of IEEE (USA), a <Emph>Fellow</Emph> of
+            IET (UK), a <Emph>Fellow</Emph> of IETE (India). He is a
+            <Emph> Topical Editor</Emph> of IEEE Sensors journal. He is also an
+            <Emph> associate</Emph> editor of IEEE Transactions on
+            Instrumentation and Measurements and IEEE Transactions on Review of
+            Biomedical Engineering. He is a <Emph>Distinguished</Emph> Lecturer
+            of the IEEE Sensors Council from 2017 to 2022. He is the
+            <Emph> Founding chair</Emph> of the IEEE Sensors Council NSW
+            chapter.
+          </p>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
