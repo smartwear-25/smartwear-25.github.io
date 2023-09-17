@@ -68,7 +68,7 @@ export default function technicalProgram() {
       </div>
 
   <div className="container mx-auto">
-        <p className="pt-2 text-3xl font-serif">Sechedule</p>
+        <p className="pt-2 text-3xl font-serif">Schedule</p>
       </div>
       <div className="container grid grid-cols-12 px-0 ">
         <BasicBlock className={`${ColorList[0]}`}>
