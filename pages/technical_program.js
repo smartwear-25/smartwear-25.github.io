@@ -175,7 +175,7 @@ export default function technicalProgram() {
               
 
       <div className="container mx-auto">
-        <p className="pt-2 text-3xl font-serif">Keynote Speakers</p>
+        <p className="pt-2 text-3xl font-serif">Keynote Speaker</p>
       </div>
       <div className="container grid grid-cols-12 ">
         <div className="col-span-12">
@@ -229,7 +229,12 @@ export default function technicalProgram() {
           </p>
           <p className="pl-2 text-justify">
             <span className="font-bold">Bio: </span>
-            Tao Gu is currently a Professor in Department of Computing at Macquarie University, Sydney. His current research interests include Internet of Things, Ubiquitous Computing, Mobile Computing, Edge AI, Wireless Sensor Networks, and Big Data Analytics. He has served as an Editor of Proc. of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), an Associate Editor of IEEE Transactions on Mobile Computing (TMC) and IEEE Internet of Things Journal (IoT-J). The long-term goal of his research aims to discover innovative ways of sensing and connecting the physical world and embedding AI intelligence to facilitate the building of new applications. Please visit https://taogu.site/ for more information.
+            Tao Gu is currently a Professor in Department of Computing at Macquarie University, Sydney. His current research interests include Internet of Things, Ubiquitous Computing, Mobile Computing, Edge AI, Wireless Sensor Networks, and Big Data Analytics. He has served as an Editor of Proc. of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), an Associate Editor of IEEE Transactions on Mobile Computing (TMC) and IEEE Internet of Things Journal (IoT-J). The long-term goal of his research aims to discover innovative ways of sensing and connecting the physical world and embedding AI intelligence to facilitate the building of new applications. Please visit <a
+            className="text-blue-500 no-underline"
+            href="https://taogu.site/"
+          >
+            https://taogu.site/
+          </a> for more information.
           </p>
         </div>
       </div>
