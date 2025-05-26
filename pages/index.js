@@ -5,30 +5,21 @@ import Nav from "../components/Nav";
 import Footer from "../components/Footer";
 
 export default function Home() {
-  return (
-    <>
-      <Nav />
-      <div className="container mx-auto">
-        <h2 className="pt-2">Motivation and Rationale</h2>
-        <div className="text-justify font-sans break-word pb-2">
-          Wearable computing systems and applications have been attracting
-          researchers and practitioners from a mix of interdisciplinary
-          disciplines for many decades. The proliferation of wearable computing
-          from smartphone and smartwatch based systems to on-skin interfaces and
-          implantables have been fuelled by the advances in the underpinning
-          technologies and the growing consumer acceptance. However, despite the
-          fast growing maturity of wearable computing, there are still many
-          important research challenges that need to be addressed, including but
-          not limited to novel hardware and platform design, energy and
-          computing efficiency, security and privacy, adherence and user
-          experience. The goal of this workshop is to provide a forum for an
-          interdisciplinary mix of researchers, developers, designers,
-          manufacturers, and users to exchange novel ideas, innovative
-          solutions, and present results from real-world case studies in the
-          area of wearable computing.
+    return (
+        <div>
+            <Nav />
+            <div className="container mx-auto">
+                <h2 className="pt-2">Motivation and Rationale</h2>
+                <div className="text-justify font-sans break-word pb-2">
+                    Wearable computing systems and applications have attracted interest from a broad range of interdisciplinary researchers and practitioners
+                    for decades. The rapid proliferation of wearable computing—from smartphones,
+                    smartwatches, on-skin interfaces, implantables, and to head-mounted immersive platforms—has been driven by technological advances and increasing consumer acceptance. However, despite their growing maturity, several key challenges
+                    continue to hinder their adoption in long-term, real-world deployments. These include, but are not limited to, novel hardware and platform design, security and privacy concerns, effective integration of advanced machine learning
+                    for on-device intelligence and context awareness, system energy and computational efficiency,
+                    and improving user adherence and overall experience.
+                </div>
+                <Footer />
+            </div>
         </div>
-        <Footer />
-      </div>
-    </>
-  );
+    );
 }
