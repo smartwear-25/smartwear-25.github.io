@@ -2,9 +2,8 @@ import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import banner from "../public/banner_hongkong.jpg";
+// import banner from "../public/banner_optimized_1.jpg";
 // import banner from "../public/banner.png";
-import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 
@@ -43,7 +42,7 @@ function Navigation() {
                     </Container>
                 </Navbar>
                 <div className="banner relative z-0" style={{ height: "20vw" }}>
-                    <Image className="object-cover" alt="banner" layout="fill" src={banner} />
+                    <img className="object-cover w-full h-full" alt="banner" src="/banner_hongkong.jpg" style={{ width: "100%", height: "100%", objectFit: "cover", position: "absolute" }} />
                     <div className="leading-tight object-contain overflow-hidden backdrop-blur-sm relative top-1/3 text-white z-1 mx-auto text-center align-middle" style={{ height: "12vw", width: "50vw" }}>
                         <p className="mb-0" style={{ fontSize: "2vw" }}>SmartWear 2025</p>
                         <p className="mb-0" style={{ fontSize: "1.5vw" }}>The 3rd Workshop on Smart Wearable Systems and Applications</p>
