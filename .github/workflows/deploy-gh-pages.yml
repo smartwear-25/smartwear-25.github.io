@@ -26,10 +26,10 @@ jobs:
         run: pnpm install
 
       - name: Build
-        run: pnpm build:deploy
-
+        run: pnpm build
+        
       - name: Export
-        run: pnpm export:deploy
+        run: pnpm export
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
