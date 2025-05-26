@@ -1,4 +1,5 @@
 related_files/
+deploy.sh
 
 # dependencies
 node_modules

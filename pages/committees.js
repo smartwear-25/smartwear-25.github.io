@@ -20,7 +20,7 @@ export default function commitees() {
                     </ul>
                 </div>
                 <div className="text-left font-sans break-word pb-2">
-                    <h2 className="pt-2">Workshop Web Chair</h2>
+                    <h2 className="pt-2">Web Chair</h2>
                     <ul className="list-disc pl-5 mb-1">
                         <li>Xinyan Wang, The Chinese University of Hong Kong, HK</li>
                     </ul>

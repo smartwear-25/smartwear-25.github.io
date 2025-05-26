@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: process.env.NEXT_PUBLIC_ASSET_PREFIX || '',
-  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
+  assetPrefix: '/smartwear2025',
+  basePath: '/smartwear2025',
 }
 
-module.exports = nextConfig
+module.exports = nextConfig 
