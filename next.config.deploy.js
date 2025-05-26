@@ -5,8 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  assetPrefix: '/smartwear2025',
-  basePath: '/smartwear2025',
 }
 
 module.exports = nextConfig 
