@@ -1,6 +1,7 @@
 This is a project based on the 2023 Smart-Wear Workshop with modified resources.
 ## Difference from 2023 version
 
+Add github pages support.
 Added multiple deployment support, now it can using deploy.sh to fast do the static depolyment.
 
 ## Getting Started
