@@ -8,8 +8,8 @@
     "export": "next export",
     "start": "next start",
     "lint": "next lint",
-    "build:deploy": "cross-env NEXT_PUBLIC_BASE_PATH=/smartwear2025 NEXT_PUBLIC_ASSET_PREFIX=/smartwear2025 next build",
-    "export:deploy": "cross-env NEXT_PUBLIC_BASE_PATH=/smartwear2025 NEXT_PUBLIC_ASSET_PREFIX=/smartwear2025 next export"
+    "build:deploy": "cross-env NEXT_PUBLIC_BASE_PATH=/SmartWear_2025 NEXT_PUBLIC_ASSET_PREFIX=/SmartWear_2025 next build",
+    "export:deploy": "cross-env NEXT_PUBLIC_BASE_PATH=/SmartWear_2025 NEXT_PUBLIC_ASSET_PREFIX=/SmartWear_2025 next export"
   },
   "dependencies": {
     "@headlessui/react": "^1.5.0",
