@@ -20,7 +20,7 @@ export default function paperSumisstion() {
                 </div>
                 <div className="text-justify font-sans break-word pb-2 pt-1">
                     <h2>Submission Website</h2>
-                    <a className="text-red-500 no-underline" href="https://smartwear2025.hotcrp.com/">
+                    <a className="text-red-500 no-underline" href="https://smartwear25.hotcrp.com/">
                         SmartWear 2025 on HotCRP
                     </a>
                 </div>
