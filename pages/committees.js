@@ -13,22 +13,7 @@ export default function commitees() {
                         <li>Guohao Lan, Delft University of Technology, the Netherlands (g.lan@tudelft.nl)</li>
                     </ul>
                 </div>
-                <div className="text-left font-sans break-word pb-2">
-                    <h2 className="pt-2">Program Committee</h2>
-                    <ul className="list-disc pl-5 mb-1">
-                        <li>Ozlem Incel, University of Twente, the Netherlands</li>
-                        <li>Hirozumi Yamaguchi, Osaka University, Japan</li>
-                        <li>Yu Xiao, Aalto University, Finland</li>
-                        <li>Dong Ma, Singapore Management University, Singapore</li>
-                        <li>VP Nguyen, University of Massachusetts Amherst, USA</li>
-                        <li>Chaojie Gu, Zhejiang University, China</li>
-                        <li>Dongyao Chen, Shanghai Jiaotong University, China</li>
-                        <li>Jingping Nie, UNC Chapel Hill, USA</li>
-                        <li>Hao Pan, Microsoft Research, China</li>
-                        <li>Gabriele Civitarese, University of Milan, Italy</li>
-                        <li>Nam Bui, University of Colorado Denver, USA</li>
-                    </ul>
-                </div>
+
                 <div className="text-left font-sans break-word pb-2">
                     <h2 className="pt-2">Web Chair</h2>
                     <ul className="list-disc pl-5 mb-1">
@@ -39,6 +24,23 @@ export default function commitees() {
                     <h2 className="pt-2">Publicity Chair</h2>
                     <ul className="list-disc pl-5 mb-1">
                         <li>Lingyu Du, TU Delft, the Netherlands</li>
+                    </ul>
+                </div>
+
+                <div className="text-left font-sans break-word pb-2">
+                    <h2 className="pt-2">Program Committee</h2>
+                    <ul className="list-disc pl-5 mb-1">
+                        <li>Nam Bui, University of Colorado Denver, USA</li>
+                        <li>Dongyao Chen, Shanghai Jiaotong University, China</li>
+                        <li>Gabriele Civitarese, University of Milan, Italy</li>
+                        <li>Chaojie Gu, Zhejiang University, China</li>
+                        <li>Ozlem Incel, University of Twente, the Netherlands</li>
+                        <li>Dong Ma, Singapore Management University, Singapore</li>
+                        <li>Jingping Nie, UNC Chapel Hill, USA</li>
+                        <li>VP Nguyen, University of Massachusetts Amherst, USA</li>
+                        <li>Hao Pan, Microsoft Research, China</li>
+                        <li>Yu Xiao, Aalto University, Finland</li>
+                        <li>Hirozumi Yamaguchi, Osaka University, Japan</li>
                     </ul>
                 </div>
             </div>
