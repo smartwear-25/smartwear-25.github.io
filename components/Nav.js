@@ -51,7 +51,7 @@ function Navigation() {
                         <p className="mb-0" style={{ fontSize: "2vw" }}>SmartWear 2025</p>
                         <p className="mb-0" style={{ fontSize: "1.5vw" }}>The 3rd Workshop on Smart Wearable Systems and Applications</p>
                         <p className="mb-0" style={{ fontSize: "1.2vw" }}>In Conjunction with MobiCom 2025</p>
-                        <p className="mb-0" style={{ fontSize: "1.5vw" }}>November 8, 2025</p>
+                        <p className="mb-0" style={{ fontSize: "1.5vw" }}>November 8, 2025, Hong Kong</p>
                     </div>
                 </div>
             </div>
