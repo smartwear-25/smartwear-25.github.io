@@ -29,7 +29,7 @@ export default function callForPapers() {
                 </div>
                 <h2 className="pt-2">Submission Instructions</h2>
                 <div className="text-justify">
-                    Demo proposals must be accompanied with an additional 1-page description of the precise setup and requirements (the 1-page setup description will not be published in the proceedings). Reviews will be single-blinded. Papers should neither have been published elsewhere nor being currently under review by another conference or journal. Papers should contain original material, namely, material that has not been previously published or currently submitted for consideration elsewhere. Prospective authors are encouraged to submit a single PDF file with all fonts embedded, using the ACM conference proceedings format. (Use the same PDF{" "}
+                    Reviews will be single-blinded. Papers should neither have been published elsewhere nor being currently under review by another conference or journal. Papers should contain original material, namely, material that has not been previously published or currently submitted for consideration elsewhere. Prospective authors are encouraged to submit a single PDF file with all fonts embedded, using the ACM conference proceedings format. (Use the same PDF{" "}
                     <a className="text-red-500 no-underline" href="https://sigmobile.org/mobicom/2025/cfp.html">
                         formatting guidelines
                     </a>
