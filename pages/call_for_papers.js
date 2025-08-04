@@ -37,12 +37,12 @@ export default function callForPapers() {
                 </div>
                 <div className="text-justify font-sans break-word pb-2">
                     <h2 className="pt-2">Important Dates (Tentative)</h2>
-                    <ul className="list-disc pl-5">
+                      <ul className="list-disc pl-5">
                         <li>Submission Deadline: <span className="font-bold">August 15, 2025</span></li>
-                        <li>Acceptance Notification: <span className="font-bold">September 15, 2025</span></li>
-                        <li>Camera Ready Due: <span className="font-bold">October 15, 2025</span></li>
+                        <li>Acceptance Notification: <span className="font-bold">September 1, 2025</span></li>
+                        <li>Camera Ready Due: <span className="font-bold">September 8, 2025</span></li>
                         <li>Workshop Date: <span className="font-bold">November 8, 2025</span></li>
-                    </ul>
+                      </ul>
                 </div>
             </div>
         </div>
