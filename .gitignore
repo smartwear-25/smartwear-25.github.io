@@ -1,3 +1,4 @@
+poster/
 related_files/
 deploy.sh
 
@@ -33,4 +34,4 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts 
+next-env.d.ts

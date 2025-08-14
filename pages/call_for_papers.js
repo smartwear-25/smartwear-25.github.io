@@ -36,9 +36,9 @@ export default function callForPapers() {
                     {" "}as the main conference.) Paper length is limited to six (6) pages (two-column, 10-point format) including references, figures, etc. Papers must include the author names and affiliations for single-blind peer reviewing by the program committee. Authors of accepted papers are expected to present their papers at the workshop.
                 </div>
                 <div className="text-justify font-sans break-word pb-2">
-                    <h2 className="pt-2">Important Dates (Tentative)</h2>
+                    <h2 className="pt-2">Important Dates</h2>
                       <ul className="list-disc pl-5">
-                        <li>Submission Deadline: <span className="font-bold">August 15, 2025</span></li>
+                        <li>Submission Deadline (Extended) : <span className="font-bold"><s>August 15, 2025</s> August 20, 2025, 11:59:59 PM AoE</span></li>
                         <li>Acceptance Notification: <span className="font-bold">September 1, 2025</span></li>
                         <li>Camera Ready Due: <span className="font-bold">September 8, 2025</span></li>
                         <li>Workshop Date: <span className="font-bold">November 8, 2025</span></li>
