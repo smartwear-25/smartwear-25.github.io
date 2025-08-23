@@ -1,6 +1,7 @@
 poster/
 related_files/
 deploy.sh
+000-tmp-files
 
 # dependencies
 node_modules

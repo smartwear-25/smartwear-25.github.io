@@ -39,8 +39,8 @@ export default function callForPapers() {
                     <h2 className="pt-2">Important Dates</h2>
                       <ul className="list-disc pl-5">
                         <li>Submission Deadline (Extended) : <span className="font-bold"><s>August 15, 2025</s> August 20, 2025, 11:59:59 PM AoE</span></li>
-                        <li>Acceptance Notification: <span className="font-bold">September 1, 2025</span></li>
-                        <li>Camera Ready Due: <span className="font-bold">September 8, 2025</span></li>
+                        <li>Acceptance Notification: <span className="font-bold">September 7, 2025</span></li>
+                        <li>Camera Ready Due: <span className="font-bold">September 12, 2025</span></li>
                         <li>Workshop Date: <span className="font-bold">November 8, 2025</span></li>
                       </ul>
                 </div>
