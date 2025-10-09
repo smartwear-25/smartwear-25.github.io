@@ -35,9 +35,9 @@ function Navigation() {
                                 <Link href="/committees">
                                     <a className="no-underline px-2 py-2 text-gray-400 hover:text-gray-200">Committees</a>
                                 </Link>
-                                {/* <Link href="/technical_program">
+                                <Link href="/program">
                                     <a className="no-underline px-2 py-2 text-gray-400 hover:text-gray-200">Program</a>
-                                </Link> */}
+                                </Link>
                                 <Link href="/paper_submission">
                                     <a className="no-underline px-2 py-2 text-gray-400 hover:text-gray-200">Paper Submission</a>
                                 </Link>
