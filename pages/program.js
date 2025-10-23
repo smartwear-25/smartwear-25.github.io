@@ -135,6 +135,10 @@ export default function Program() {
             <div className="container mx-auto">
                 <div className="text-justify font-sans break-word pb-2">
                     <h2 className="pt-2 text-2xl font-bold dark:text-gray-800">Workshop Program</h2>
+                    <div className="text-lg text-gray-700 mt-2">
+                        <p>📍 Location: Room 2463, HKUST Campus</p>
+                        <p>📅 Date: November 8, 2025</p>
+                    </div>
 
                     <div className="mt-4">
                         {programData.map((item, index) => (

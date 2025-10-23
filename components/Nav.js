@@ -45,12 +45,13 @@ function Navigation() {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-                <div className="banner relative z-0" style={{ height: "20vw" }}>
+                <div className="banner relative z-0 mb-8" style={{ height: "20vw" }}>
                     <img className="object-cover w-full h-full" alt="banner" src={`${basePath}/banner_hongkong.jpg`} style={{ width: "100%", height: "100%", objectFit: "cover", position: "absolute" }} />
                     <div className="leading-tight object-contain overflow-hidden backdrop-blur-sm relative top-1/3 text-white z-1 mx-auto text-center align-middle" style={{ height: "12vw", width: "50vw" }}>
                         <p className="mb-0" style={{ fontSize: "2vw" }}>SmartWear 2025</p>
                         <p className="mb-0" style={{ fontSize: "1.5vw" }}>The 3rd Workshop on Smart Wearable Systems and Applications</p>
                         <p className="mb-0" style={{ fontSize: "1.2vw" }}>In Conjunction with MobiCom 2025</p>
+                        <p className="mb-0" style={{ fontSize: "1.2vw" }}>Room 2463, HKUST Campus</p>
                         <p className="mb-0" style={{ fontSize: "1.5vw" }}>November 8, 2025, Hong Kong</p>
                     </div>
                 </div>

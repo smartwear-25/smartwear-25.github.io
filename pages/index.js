@@ -18,6 +18,10 @@ export default function Home() {
                     for on-device intelligence and context awareness, system energy and computational efficiency,
                     and improving user adherence and overall experience.
                 </div>
+                <h2 className="pt-2">News</h2>
+                <div className="text-justify font-sans break-word pb-2">
+                    <p>🎉 <a href="/program" className="text-blue-600 hover:text-blue-800">Program is now online! Click here to view the detailed schedule.</a></p>
+                </div>
                 <Footer />
             </div>
         </div>
