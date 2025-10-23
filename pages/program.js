@@ -137,8 +137,8 @@ export default function Program() {
                     <h2 className="pt-2 text-2xl font-bold dark:text-gray-800">Workshop Program</h2>
                     <div className="text-lg text-gray-700 mt-2">
                         <p>📍 Location: Room 2463, HKUST Campus</p>
-                        <p>📅 Date: November 8, 2025</p>
                         <p>🗺️ <a href="https://navigate.ust.hk/path/app/location/directions?id=685cef3d07973ca98d5248fa&building_floor_id=bf0000000000000000000109&end=685cef3d07973ca98d5248fa" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-800">Link to map</a></p>
+                        <p>📅 Date: November 8, 2025</p>
                     </div>
 
                     <div className="mt-4">
