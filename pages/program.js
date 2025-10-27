@@ -130,7 +130,7 @@ const Keynote = ({ keynote, details }) => {
             </div>
             <div className="flex flex-col md:flex-row gap-8 items-start mt-8">
                 <div className="flex-shrink-0 md:w-64 w-full">
-                    <Image src={keynote.photo} alt="Photo of Shengdong Zhao" width={300} height={500} className="rounded-lg shadow-md w-full object-cover" />
+                    <Image unoptimized={true} src={keynote.photo} alt="Photo of Shengdong Zhao" width={300} height={500} className="rounded-lg shadow-md w-full object-cover" />
                 </div>
                 <div className="flex-grow">
                     <h4 className="font-bold text-2xl text-gray-700 border-b pb-2 mb-3">Bio</h4>
