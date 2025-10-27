@@ -1,9 +1,42 @@
 import Nav from "../components/Nav";
 import { useState } from "react";
+import Image from "next/image";
 
 const programData = [
     { type: "event", title: "Opening Remarks", time: "08:30 – 08:45" },
-    { type: "event", title: "Keynote Speaker", details: <>Prof. <a href="https://shengdongzhao.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 no-underline hover:underline">Shengdong (Shen) Zhao</a>, City University of Hong Kong (CityU)</>, time: "08:45 – 09:45" },
+    {
+        type: "event",
+        title: "Keynote: Heads-Up Computing: Towards the Next Interaction Paradigm for Wearable Intelligent Assistants",
+        details: (
+            <>
+                Prof.{" "}
+                <a href="https://shengdongzhao.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 no-underline hover:underline">
+                    Shengdong (Shen) Zhao
+                </a>
+                , City University of Hong Kong
+            </>
+        ),
+        time: "08:45 – 09:45",
+        keynote: {
+            title: "Heads-Up Computing: Towards the Next Interaction Paradigm for Wearable Intelligent Assistants",
+            abstract:
+                "Heads-up computing, an emerging paradigm in human-computer interaction (HCI), aims to create seamless interactions with technology through wearable intelligent assistants. This vision relies on three crucial components: (1) bodily compatible hardware, (2) multimodal complementary interactions, and (3) interfaces that accommodate fragmented attention and are aware of potential resources. Recent advancements in large language models (LLMs) have significantly accelerated progress in these areas, enabling more natural, context-aware, and proactive systems. These developments are pushing heads-up computing beyond simple notifications to complex, multi-modal interactions that blend seamlessly with our environment and daily activities, allowing for efficient information processing in everyday life. However, as we integrate these AI-driven assistants more deeply into our lives, we must carefully consider ethical implications such as privacy and cognitive load. Balancing technological advancement with human-centered principles is crucial to create systems that enhance productivity while respecting user autonomy and well-being, ultimately augmenting human capabilities without compromising fundamental values.",
+            bio: (
+                <>
+                    {`Shengdong Zhao is a Professor in the School of Creative Media and the Department of Computer Science at City University of Hong Kong. He established and led the Synteraction (formerly NUS-HCI) research lab in 2009 at the National University of Singapore. Prof. Zhao received his Ph.D. in Computer Science from the University of Toronto and a Master's degree in Information Management Systems from the University of California, Berkeley.
+
+With extensive experience in developing innovative interface tools and applications, Prof. Zhao is a regular contributor to top-tier HCI conferences and journals like CHI, ToCHI, Ubicomp/IMWUT, CSCW, UIST, and IUI. He served as a senior consultant with Huawei Consumer Business Group in 2017. An active member of the HCI community, Prof. Zhao serves on program committees for major HCI conferences and was the paper co-chair for ACM SIGCHI conference in 2019 and 2020, and is the paper co-chair for ACM UIST conference in 2025.
+
+Prof. Zhao introduced the concept of Heads-up Computing in 2017, contributing to several key projects and publications in this area, including a featured article on heads-up computing in the September 2023 issue of Communications of the ACM. His research aims to develop innovative interface tools that enhance daily life through this new interaction paradigm. For more information about his work, please visit `}
+                    <a href="http://www.shengdongzhao.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                        www.shengdongzhao.com
+                    </a>
+                    .
+                </>
+            ),
+            photo: "/prof_shengdong_zhao.webp",
+        },
+    },
     {
         type: "session",
         title: "Paper Session 1",
@@ -86,6 +119,28 @@ const programData = [
     },
 ];
 
+const Keynote = ({ keynote, details }) => {
+    return (
+        <div className="p-8 rounded-xl bg-gradient-to-br from-slate-50 to-blue-50 border border-slate-200 shadow-lg">
+            <h3 className="text-3xl font-bold text-gray-800 mb-2">{keynote.title}</h3>
+            <div className="text-lg text-gray-600 mb-6">{details}</div>
+            <div>
+                <h4 className="font-bold text-2xl text-gray-700 border-b pb-2 mb-3">Abstract</h4>
+                <p className="text-justify text-gray-600 leading-relaxed">{keynote.abstract}</p>
+            </div>
+            <div className="flex flex-col md:flex-row gap-8 items-start mt-8">
+                <div className="flex-shrink-0 md:w-64 w-full">
+                    <Image src={keynote.photo} alt="Photo of Shengdong Zhao" width={300} height={500} className="rounded-lg shadow-md w-full object-cover" />
+                </div>
+                <div className="flex-grow">
+                    <h4 className="font-bold text-2xl text-gray-700 border-b pb-2 mb-3">Bio</h4>
+                    <p className="text-justify text-gray-600 whitespace-pre-line leading-relaxed">{keynote.bio}</p>
+                </div>
+            </div>
+        </div>
+    );
+};
+
 const Paper = ({ title, authors, abstract, keywords, classification }) => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -129,6 +184,7 @@ const Paper = ({ title, authors, abstract, keywords, classification }) => {
 };
 
 export default function Program() {
+    const keynoteItem = programData.find((item) => item.keynote);
     return (
         <div>
             <Nav />
@@ -145,7 +201,13 @@ export default function Program() {
                         {programData.map((item, index) => (
                             <div key={index} className="mb-4">
                                 <div className="bg-blue-100 p-2 rounded-md">
-                                    <strong className="text-lg">{item.title}</strong>
+                                    {item.keynote ? (
+                                        <a href="#keynote-details" className="text-blue-700 hover:underline">
+                                            <strong className="text-lg">{item.title}</strong>
+                                        </a>
+                                    ) : (
+                                        <strong className="text-lg">{item.title}</strong>
+                                    )}
                                     <br />
                                     <span>{item.time}</span>
                                     {item.details && (
@@ -165,6 +227,12 @@ export default function Program() {
                             </div>
                         ))}
                     </div>
+                    {keynoteItem && (
+                        <div id="keynote-details" className="pt-8 mt-8 border-t">
+                            <h2 className="text-3xl font-bold text-center dark:text-gray-800 mb-6">Keynote Speaker</h2>
+                            <Keynote keynote={keynoteItem.keynote} details={keynoteItem.details} />
+                        </div>
+                    )}
                 </div>
             </div>
         </div>
